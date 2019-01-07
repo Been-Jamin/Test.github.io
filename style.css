@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #c9c3ca;
+}
+
+.header-site {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: url("header.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.message {
+  position: absolute;
+  top: 35vh;
+  right: 14vw;
+  width: 72vw;
+  height: 5vh;
+}
+
+.bttn {
+  position: absolute;
+  top: 59.40vh;
+  right: 39.30vw;
+  width: 21.5vw;
+  height: 5vh;
+}
+
+.my-container {
+  border: 1px solid white;
+}
+
+.center-text-mssg {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vmin;
+}
+
+.center-text-bttn {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2vmin;
+}
